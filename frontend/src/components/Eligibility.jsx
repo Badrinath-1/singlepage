@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Eligibility.css';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001/api';
-const DISABILITY_TYPES = [
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  'https://singlepage-dashboard.onrender.com/api';const DISABILITY_TYPES = [
   'Locomotor',
   'Visual',
   'Hearing',
