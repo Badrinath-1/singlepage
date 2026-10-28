@@ -19,7 +19,7 @@ import {
 } from 'recharts';
 import './Dashboard.css';
 
-const API_BASE_URL = 'http://localhost:5001/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001/api';
 
 const COLORS = ['#134074', '#10b981', '#0284c7', '#8b5cf6', '#f97316', '#ec4899', '#3b82f6', '#14b8a6'];
 
